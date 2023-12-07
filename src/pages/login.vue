@@ -1,5 +1,5 @@
 <script lang="jsx">
-import { DefineComponent,reactive,ref  } from 'vue';
+import { defineComponent,reactive,ref  } from 'vue';
 import '@/styles/login.scss'
 import {useRouter,useRoute} from 'vue-router';
 import logoImg from "@/assets/Images/logo.png"

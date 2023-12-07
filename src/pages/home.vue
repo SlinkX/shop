@@ -1,5 +1,5 @@
 <script lang="jsx">
-    import { DefineComponent, reactive, onMountq,watchEffect} from 'vue';
+    import { defineComponent, reactive, onMounted,watchEffect} from 'vue';
     import {useRouter} from "vue-router"
     import PageHeader from "@/components/pageHeader.vue"
     import "@/styles/home.scss"
