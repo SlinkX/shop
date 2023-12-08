@@ -1,0 +1,82 @@
+.settlement_box{
+ 
+    .address_box{
+        border: 1px solid #dfdfdf; 
+        margin-top: 30px;
+        margin-bottom: 30px;
+        h4{
+            font-size: 16px;
+            padding:10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            background-color: #efefef;
+        }
+        .address_form{
+            padding:15px  20px;
+            width:50%
+        }
+    }
+     
+    .good_item{
+        width: 100%;
+        background-color: #efefef;
+        padding: 20px 15px;
+        display: flex;
+        border-radius: 10px;
+        align-items: center;
+        height: auto;
+        margin-bottom: 30px;
+        font-size: 14px;
+        .item_content{
+            display: flex;
+            align-items: flex-start; 
+        }
+        .img{
+            width: 50px;
+            height: 50px;
+            background-color: palegoldenrod;
+            display:block;
+            margin: 0 10px;
+        }
+        .title{
+            width: 170px;
+            margin: 0 10px;  
+            white-space:wrap; 
+            line-height: 1.5;
+        }
+        .other{
+            width: 170px;
+            flex-shrink: 1;
+            color: #aaa; 
+            white-space:wrap; 
+            line-height: 1.5;
+            margin: 0 10px;  
+ 
+        }
+        .price{
+            width: 200px;
+            text-align: center;
+            font-weight: bold;
+            margin: 0 10px; 
+            color: var(--color-red); 
+            line-height: 1.5;
+        }
+        .number{ 
+            width: 200px;
+            text-align: center;
+            margin: 0 10px;  
+            span{
+                display: block;
+            } 
+        }
+    }
+    .bottom{
+        padding: 20px;
+        background-color: #efefef;
+        .pay_btn,.pay_info{
+            display: flex;
+            flex-direction: row-reverse;
+            margin: 10px 0;
+        }
+    }
+}

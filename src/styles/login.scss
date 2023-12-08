@@ -1,48 +1,49 @@
 .login-box{
   .logo{
-    display: block;
-    width: 16px;
-    margin: 30px 0;
-  }
+     display: block;
+     width: 160px;
+     margin: 30px 0;
+  }   
   .login_left{
-    width: 50%;
-    height: 400px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px #aaa;
-    overflow: hidden;
-    img{
-      width:100%;
-    }
+     width: 50%;
+     height: 400px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 5px #aaa;
+     overflow: hidden;
+     img{
+         width: 100%;
+     }
   }
-  .login_right{
-    width: 40%;
-    height: 400px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px #aaa;
-    box-sizing: border-box;
-    padding: 30px;
-    .tabs-title{
-      span{
-        width: 40%;
-        text-align: center;
-        color: #ddd;
-        font-size: 21px;
-        &.active{
-          color:#333;
-        }
-      }
-    }
-    .demo-dynamic{
-      margin-top: 60px;
-      .el-input__inner{
-        height: 48px;
-      }
-    }
-    .submit_btn{
-      display: block;
-      margin: 30px auto;
-      width: 100%;
-      height: 50px;
-    }
+  .login_right{ 
+     width: 40%;
+     height: 400px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 5px #aaa;
+     box-sizing: border-box;
+     padding: 30px;
+     .tabs-title{
+         span{
+             width: 40%;
+             text-align: center;
+             color: #ddd;
+             font-size: 21px;
+             &.active{
+                 color: #333;
+             }
+         }
+     }
+     .demo-dynamic{
+         margin-top: 60px;
+         .el-input__inner{
+             height: 48px;
+  
+         }
+     }
+     .submit_btn{
+         display: block;
+         margin: 30px auto;
+         width: 100%;
+         height: 50px;
+     }
   }
-}
+ }

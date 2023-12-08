@@ -1,0 +1,65 @@
+.orderList_box{ 
+  .good_box{
+      margin-top: 50px;
+      border:1px solid #efefef;
+      padding:10px
+  }
+  .order_item{
+      border-bottom:1px solid #efefef;
+      margin-bottom: 30px;
+
+  }
+  .good_item{
+      width: 100%; 
+      padding: 20px 15px;
+      display: flex;
+      border-radius: 10px;
+      align-items: center;
+      height: auto;
+      margin-bottom: 30px;
+      font-size: 14px;
+      border-bottom:1px solid #efefef;
+      .item_content{
+          display: flex;
+          align-items: flex-start; 
+      }
+      .img{
+          width: 50px;
+          height: 50px;
+          background-color: palegoldenrod;
+          display:block;
+          margin: 0 10px;
+      }
+      .title{
+          width: 200px;
+          margin: 0 10px;  
+          white-space:wrap; 
+          line-height: 1.5;
+      }
+      .other{
+          width: 200px;
+          flex-shrink: 1;
+          color: #aaa; 
+          white-space:wrap; 
+          line-height: 1.5;
+          margin: 0 10px;  
+
+      }
+      .price{
+          width:200px;
+          text-align: center;
+          font-weight: bold;
+          margin: 0 10px; 
+          color: var(--color-red); 
+          line-height: 1.5;
+      }
+      .number{ 
+          width: 200px;
+          text-align: center;
+          margin: 0 10px;  
+          span{
+              display: block;
+          } 
+      }
+  }
+}

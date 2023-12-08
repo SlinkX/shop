@@ -1,21 +1,21 @@
-@use'../styles/element.scss' as *;
+@use '../styles/element.scss' as *;
 @import './base.scss';
-
-//公共类名
+  
+// 公共类名
 .main{
-display: block;
-width: 980px;
-margin: 0 auto;
+  display: block;
+  width: 980px;
+  margin: 0 auto;
 }
-//flex布局
+// felx 布局
 .flex{
   display: flex;
   align-items: center;
 }
 .flex-float{
   display: flex;
-justify-content: space-between;
-align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .el-empty{
   width: 100%;

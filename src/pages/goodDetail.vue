@@ -6,7 +6,7 @@ import {useRoute,useRouter} from 'vue-router'
 import "@/styles/goodDetail.scss"
 import PageHeader from "@/components/pageHeader.vue"
 import {getGoodsDetailAPI,updateGoodsCarAPI} from "@/api/index"
-import {uInfoStore} from "@/pinia/uninfo.js"
+import {uInfoStore} from "@/pinia/uinfo.js"
 import {orderGoodStore} from "@/pinia/orderList.js"
 import {ElMessage} from "element-plus"
 export default defineComponent({
