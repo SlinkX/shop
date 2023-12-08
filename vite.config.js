@@ -22,4 +22,14 @@ export default defineConfig({
       },
     },
   },
+  //配置跨域
+  server:{
+    proxy:{
+      "/eapi":{
+        target:"http://127.0.0.1:612",
+        changeOrigin:true,
+        rewrite:(path)=>path.replace(/^\/eapi/,"")
+      }
+    }
+  }
 })
